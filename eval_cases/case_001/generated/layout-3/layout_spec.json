@@ -1,0 +1,35 @@
+{
+  "schema_version": "scientific-framework/layout/v1",
+  "artifact_status": "draft",
+  "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+  "diagram_type": "content_evidence_dual_layer",
+  "title": "合成课堂判断研究",
+  "display_node_ids": [
+    "q",
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m5",
+    "t1",
+    "t2",
+    "t3",
+    "t4",
+    "data",
+    "compare",
+    "analysis",
+    "output",
+    "progress"
+  ],
+  "omitted_nodes": [],
+  "font_size": 18,
+  "containers": [],
+  "style_id": "scientific-neutral",
+  "notes": [
+    "Display order is not causality."
+  ]
+}

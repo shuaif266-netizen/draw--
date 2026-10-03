@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from PIL import Image
 from contracts import digest, read, write
 from validate_drawio import validate_drawio
+from diagram_scene import ROLE_LABELS, STATE_LABELS
 
 def svg_tree(scene):
     svg=ET.Element('svg',xmlns='http://www.w3.org/2000/svg',width=str(scene['width']),height=str(scene['height']),
@@ -32,12 +33,14 @@ def svg_tree(scene):
         if e['directed']: attrs['marker-end']='url(#arrow)'
         if e['needs_review']: attrs['stroke-dasharray']='6 5'
         ET.SubElement(svg,'polyline',attrs)
-        p=e['points'][1]; text(p[0]+3,p[1]-6,[e['label']],11)
+        vertical=[(p,q) for p,q in zip(e['points'],e['points'][1:]) if p[0]==q[0]]
+        p,q=max(vertical,key=lambda pair:abs(pair[1][1]-pair[0][1]))
+        text(p[0]+3,(p[1]+q[1])/2-4,[e['label']],12)
     for n in scene['nodes']:
         el=ET.SubElement(svg,'g',attrib={'data-semantic-node-ids':','.join(n['semantic_node_ids'])})
         ET.SubElement(el,'rect',x=str(n['x']),y=str(n['y']),width=str(n['width']),height=str(n['height']),rx='10',fill=n['fill'],stroke='#526477')
         text(n['x']+16,n['y']+scene['font_size']+15,n['lines'],scene['font_size'])
-        text(n['x']+16,n['y']+n['height']-14,[n['role']+' · '+n['statement_status']],12)
+        text(n['x']+16,n['y']+n['height']-14,[ROLE_LABELS[n['role']]+' · '+STATE_LABELS[n['statement_status']]],12)
     for a in scene['annotations']: text(a['x'],a['y'],[a['text']],17,'600')
     return ET.ElementTree(svg)
 
@@ -89,7 +92,8 @@ def render(scene,drawio,output_dir,cli=None,force_fallback=False):
         else:
             if png.exists(): png.unlink()
             manifest['png_status']='failed'
-    if manifest['backend']=='scene_svg_fallback': svg_tree(scene).write(svg,encoding='utf-8',xml_declaration=True)
+    if manifest['backend']=='scene_svg_fallback':
+        svg.write_bytes(ET.tostring(svg_tree(scene).getroot(),encoding='utf-8',xml_declaration=True))
     manifest['artifacts']={svg.name:hashlib.sha256(svg.read_bytes()).hexdigest()}
     if png.exists(): manifest['artifacts'][png.name]=hashlib.sha256(png.read_bytes()).hexdigest()
     manifest['visual_qa_status']=qa['visual_qa']['status']

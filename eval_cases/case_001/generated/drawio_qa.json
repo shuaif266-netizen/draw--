@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "errors": [],
+  "scene_sha256": "d49a2ac7f1936fde58e57c29e9efb1a80aff98c43f0f9b73d348b55428969e6e",
+  "artifact_status": "draft",
+  "structure_qa": "passed",
+  "visual_qa": {
+    "status": "issues_found",
+    "issues": [
+      "Orthogonal edge crossings: 8",
+      "A4 fit-to-page node label is only 6.5 pt; use a larger page or simplify projection"
+    ],
+    "a4_fit_font_pt": 6.53,
+    "edge_crossing_count": 8,
+    "human_visual_review": "not_run",
+    "reading_3_to_5_seconds": "not_run",
+    "grayscale_print": "not_run",
+    "native_drawio_render": "not_run",
+    "text_metrics": [
+      "measured_msyh_or_simhei"
+    ]
+  }
+}

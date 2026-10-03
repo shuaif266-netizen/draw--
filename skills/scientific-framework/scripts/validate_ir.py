@@ -2,7 +2,7 @@
 import argparse
 import hashlib
 from pathlib import Path
-from contracts import digest, read, schema_errors, write
+from contracts import digest, semantic_digest, read, schema_errors, write
 
 
 def validate(ir, snapshot):
@@ -25,6 +25,8 @@ def validate(ir, snapshot):
     rid = [r['id'] for r in ir['relations']]
     if len(set(ids+rid)) != len(ids+rid): errors.append('Duplicate semantic IDs')
     nodes = {n['id']:n for n in ir['nodes']}
+    if ir['project']['diagram_purpose'] in ('overall_research_approach','research_framework') and not any(n['type'] in ('scientific_question','research_problem') for n in ir['nodes']):
+        blockers.append('Core research/scientific question missing for framework purpose')
 
     def location(loc, subject):
         segment = segments.get((loc['source_id'],loc['segment_id']))
@@ -75,6 +77,7 @@ def validate(ir, snapshot):
         if issue['needs_review'] and issue['severity']=='blocker': blockers.append(issue['issue'])
     review=ir['agent_review']
     if review['source_snapshot_sha256'] != digest(snapshot): errors.append('Agent review source snapshot changed')
+    if review['semantic_model_sha256'] != semantic_digest(ir): errors.append('Semantic model changed since Agent review; review again')
     if review['status']!='completed': blockers.append('Agent scientific/terminology/status review pending')
     warnings.extend(snapshot.get('warnings',[]))
     eligible = not errors and not blockers

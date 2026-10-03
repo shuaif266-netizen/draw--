@@ -1,0 +1,47 @@
+{
+  "node_type_counts": {
+    "research_content": 4,
+    "research_task": 4,
+    "method": 5,
+    "progress": 1
+  },
+  "required_relation_ids": [
+    "r-method-1",
+    "r-method-2",
+    "r-method-3",
+    "r-method-4",
+    "r-method-5",
+    "r-method-6",
+    "r-data-1",
+    "r-analysis-1",
+    "r-data-2",
+    "r-analysis-2",
+    "r-data-3",
+    "r-analysis-3",
+    "r-data-4",
+    "r-analysis-4",
+    "r-comparison",
+    "r-output",
+    "r-validation"
+  ],
+  "forbidden_relation_pairs": [
+    [
+      "t1",
+      "c1"
+    ],
+    [
+      "t2",
+      "c2"
+    ],
+    [
+      "t3",
+      "c3"
+    ],
+    [
+      "t4",
+      "c4"
+    ]
+  ],
+  "expected_status": "draft",
+  "approval_eligible": false
+}

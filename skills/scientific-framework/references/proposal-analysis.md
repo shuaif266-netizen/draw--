@@ -8,4 +8,6 @@
 
 agent_review.summary必须回答：核心问题、主线、内容/任务/方法/证据各是什么，因果/比较/时间关系，歧义，可压缩项与绝不能合并项。issues明确遗漏、术语误改、任务冒充内容、方法冒充成果、预期写成结果等问题。status=completed表示Agent真的对照原文完成审查，非专家背书；无法完成则pending。
 
+审查source_snapshot_sha256绑定固定来源JSON；semantic_model_sha256绑定project/nodes/relations。改变角色、边或状态后必须重审，并使用contracts.digest/semantic_digest计算hash。hash只能防止旧记录误用，不能证明填写审查者真的理解科学内容。
+
 compile_scientific_ir不代替这一步。confidence指抽取解释把握，不指科学命题正确概率。无法确认的关键关系needs_review=true，核心待审项阻止approved，但允许draft。

@@ -1,0 +1,30 @@
+{
+  "artifact_status": "draft",
+  "scene_sha256": "8e42eaf7fc8c01504859690e504da6c2342ea24d7139908b497bc1588fd6ef77",
+  "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+  "layout_sha256": "5d3812cbf0b910f2f937ee1535c58d07bf682da030c74f82847912ee8ed82977",
+  "scientific_qa": {
+    "schema_valid": true,
+    "valid": true,
+    "approval_eligible": false,
+    "artifact_status": "draft",
+    "errors": [],
+    "blockers": [
+      "r-validation: unresolved core relation",
+      "检验评价工具的指标未确定，不能批准最终图"
+    ],
+    "warnings": [],
+    "source_snapshot_sha256": "da83d5a38709e33f1160f345d2a9f2845434db1629aca3418f8ab8d5a4b060e4",
+    "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+    "semantic_review": "agent_record_completed"
+  },
+  "backend": "scene_svg_fallback",
+  "rendered_from": "layout_spec",
+  "native_drawio_render": "skipped",
+  "png_status": "skipped",
+  "commands": [],
+  "artifacts": {
+    "preview.svg": "150b86d633de431e0238703235b5f5ff4488c4da1ae361183ad3fb1f6ad70498"
+  },
+  "visual_qa_status": "issues_found"
+}

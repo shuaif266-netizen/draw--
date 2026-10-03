@@ -11,11 +11,14 @@ def read(path):
 
 def write(path, data):
     path = Path(path); path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
 
 def digest(data):
     return hashlib.sha256(json.dumps(data, ensure_ascii=False, sort_keys=True,
                                     separators=(',', ':')).encode('utf-8')).hexdigest()
+
+def semantic_digest(ir):
+    return digest({k:ir[k] for k in ('project','nodes','relations')})
 
 def schema_errors(data, name):
     schema = read(SKILL/'schemas'/f'{name}.schema.json')

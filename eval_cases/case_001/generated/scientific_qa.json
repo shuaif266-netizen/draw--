@@ -1,0 +1,15 @@
+{
+  "schema_valid": true,
+  "valid": true,
+  "approval_eligible": false,
+  "artifact_status": "draft",
+  "errors": [],
+  "blockers": [
+    "r-validation: unresolved core relation",
+    "检验评价工具的指标未确定，不能批准最终图"
+  ],
+  "warnings": [],
+  "source_snapshot_sha256": "da83d5a38709e33f1160f345d2a9f2845434db1629aca3418f8ab8d5a4b060e4",
+  "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+  "semantic_review": "agent_record_completed"
+}

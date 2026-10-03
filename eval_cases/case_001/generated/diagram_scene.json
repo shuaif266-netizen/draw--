@@ -1,0 +1,1239 @@
+{
+  "schema_version": "scientific-framework/scene/v1",
+  "artifact_status": "draft",
+  "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+  "layout_sha256": "acd617367b02c4a7da6239ddbfc0abbd662671fad5dcfe7d88936451869ca6dd",
+  "width": 1640,
+  "height": 1186,
+  "font_size": 18,
+  "nodes": [
+    {
+      "id": "n-m1",
+      "semantic_node_ids": [
+        "m1"
+      ],
+      "label": "过程追踪法",
+      "lines": [
+        "过程追踪法"
+      ],
+      "role": "method",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 160,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#E6F1EA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ]
+    },
+    {
+      "id": "n-m2",
+      "semantic_node_ids": [
+        "m2"
+      ],
+      "label": "访谈法",
+      "lines": [
+        "访谈法"
+      ],
+      "role": "method",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 282,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#E6F1EA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ]
+    },
+    {
+      "id": "n-m3",
+      "semantic_node_ids": [
+        "m3"
+      ],
+      "label": "主题分析法",
+      "lines": [
+        "主题分析法"
+      ],
+      "role": "method",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 404,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#E6F1EA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ]
+    },
+    {
+      "id": "n-m4",
+      "semantic_node_ids": [
+        "m4"
+      ],
+      "label": "案例比较法",
+      "lines": [
+        "案例比较法"
+      ],
+      "role": "method",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 526,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#E6F1EA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ]
+    },
+    {
+      "id": "n-m5",
+      "semantic_node_ids": [
+        "m5"
+      ],
+      "label": "描述统计法",
+      "lines": [
+        "描述统计法"
+      ],
+      "role": "method",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 648,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#E6F1EA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ]
+    },
+    {
+      "id": "n-compare",
+      "semantic_node_ids": [
+        "compare"
+      ],
+      "label": "探索性观察，不作严格因果推断",
+      "lines": [
+        "探索性观察，不作严格因果推断"
+      ],
+      "role": "comparison",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 770,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#F5F7FA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p8",
+          "line_start": 8,
+          "line_end": 8
+        }
+      ]
+    },
+    {
+      "id": "n-progress",
+      "semantic_node_ids": [
+        "progress"
+      ],
+      "label": "第1至24个月",
+      "lines": [
+        "第1至24个月"
+      ],
+      "role": "progress",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 160,
+      "y": 892,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#F0F0F0",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p10",
+          "line_start": 10,
+          "line_end": 10
+        }
+      ]
+    },
+    {
+      "id": "n-q",
+      "semantic_node_ids": [
+        "q"
+      ],
+      "label": "不同资料来源如何支持对课堂判断过程的解释",
+      "lines": [
+        "不同资料来源如何支持对课堂判断过程的",
+        "解释"
+      ],
+      "role": "scientific_question",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 160,
+      "width": 370,
+      "height": 98,
+      "parent": null,
+      "fill": "#DCEAF7",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p1",
+          "line_start": 1,
+          "line_end": 1
+        }
+      ]
+    },
+    {
+      "id": "n-c1",
+      "semantic_node_ids": [
+        "c1"
+      ],
+      "label": "还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节",
+      "lines": [
+        "还原学生在不同学习条件下形成课堂判断",
+        "的连续过程并识别关键证据转换环节"
+      ],
+      "role": "research_content",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 300,
+      "width": 370,
+      "height": 98,
+      "parent": null,
+      "fill": "#DCEAF7",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ]
+    },
+    {
+      "id": "n-c2",
+      "semantic_node_ids": [
+        "c2"
+      ],
+      "label": "形成条件与比较边界（条件A < 条件B & 情境差异）",
+      "lines": [
+        "形成条件与比较边界（条件A < 条件B & ",
+        "情境差异）"
+      ],
+      "role": "research_content",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 440,
+      "width": 370,
+      "height": 98,
+      "parent": null,
+      "fill": "#DCEAF7",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p3",
+          "line_start": 3,
+          "line_end": 3
+        }
+      ]
+    },
+    {
+      "id": "n-c3",
+      "semantic_node_ids": [
+        "c3"
+      ],
+      "label": "过程资料的归纳方式",
+      "lines": [
+        "过程资料的归纳方式"
+      ],
+      "role": "research_content",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 580,
+      "width": 370,
+      "height": 80,
+      "parent": null,
+      "fill": "#DCEAF7",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p4",
+          "line_start": 4,
+          "line_end": 4
+        }
+      ]
+    },
+    {
+      "id": "n-c4",
+      "semantic_node_ids": [
+        "c4"
+      ],
+      "label": "评价规则的试行条件",
+      "lines": [
+        "评价规则的试行条件"
+      ],
+      "role": "research_content",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 702,
+      "width": 370,
+      "height": 80,
+      "parent": null,
+      "fill": "#DCEAF7",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ]
+    },
+    {
+      "id": "n-analysis",
+      "semantic_node_ids": [
+        "analysis"
+      ],
+      "label": "综合分析阶段",
+      "lines": [
+        "综合分析阶段"
+      ],
+      "role": "process",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 650,
+      "y": 824,
+      "width": 370,
+      "height": 80,
+      "parent": null,
+      "fill": "#F5F7FA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "n-output",
+      "semantic_node_ids": [
+        "output"
+      ],
+      "label": "评价工具草案",
+      "lines": [
+        "评价工具草案"
+      ],
+      "role": "output",
+      "statement_status": "expected",
+      "needs_review": false,
+      "x": 650,
+      "y": 946,
+      "width": 370,
+      "height": 80,
+      "parent": null,
+      "fill": "#ECE5F5",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "n-t1",
+      "semantic_node_ids": [
+        "t1"
+      ],
+      "label": "课堂活动一记录",
+      "lines": [
+        "课堂活动一记录"
+      ],
+      "role": "research_task",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 1140,
+      "y": 160,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#FFF0D9",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "n-t2",
+      "semantic_node_ids": [
+        "t2"
+      ],
+      "label": "课堂活动二记录",
+      "lines": [
+        "课堂活动二记录"
+      ],
+      "role": "research_task",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 1140,
+      "y": 282,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#FFF0D9",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "n-t3",
+      "semantic_node_ids": [
+        "t3"
+      ],
+      "label": "课堂活动三记录",
+      "lines": [
+        "课堂活动三记录"
+      ],
+      "role": "research_task",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 1140,
+      "y": 404,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#FFF0D9",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "n-t4",
+      "semantic_node_ids": [
+        "t4"
+      ],
+      "label": "课堂活动四记录",
+      "lines": [
+        "课堂活动四记录"
+      ],
+      "role": "research_task",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 1140,
+      "y": 526,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#FFF0D9",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "n-data",
+      "semantic_node_ids": [
+        "data"
+      ],
+      "label": "连续过程资料",
+      "lines": [
+        "连续过程资料"
+      ],
+      "role": "data",
+      "statement_status": "planned",
+      "needs_review": false,
+      "x": 1140,
+      "y": 648,
+      "width": 330,
+      "height": 80,
+      "parent": null,
+      "fill": "#F5F7FA",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-r-method-1",
+      "semantic_relation_ids": [
+        "r-method-1"
+      ],
+      "source": "n-c1",
+      "target": "n-m1",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          349.0
+        ],
+        [
+          552.0,
+          349.0
+        ],
+        [
+          552.0,
+          200.0
+        ],
+        [
+          490,
+          200.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ]
+    },
+    {
+      "id": "e-r-method-2",
+      "semantic_relation_ids": [
+        "r-method-2"
+      ],
+      "source": "n-c1",
+      "target": "n-m2",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          349.0
+        ],
+        [
+          561.0,
+          349.0
+        ],
+        [
+          561.0,
+          322.0
+        ],
+        [
+          490,
+          322.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ]
+    },
+    {
+      "id": "e-r-method-3",
+      "semantic_relation_ids": [
+        "r-method-3"
+      ],
+      "source": "n-c2",
+      "target": "n-m1",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          489.0
+        ],
+        [
+          570.0,
+          489.0
+        ],
+        [
+          570.0,
+          200.0
+        ],
+        [
+          490,
+          200.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p3",
+          "line_start": 3,
+          "line_end": 3
+        }
+      ]
+    },
+    {
+      "id": "e-r-method-4",
+      "semantic_relation_ids": [
+        "r-method-4"
+      ],
+      "source": "n-c3",
+      "target": "n-m3",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          620.0
+        ],
+        [
+          579.0,
+          620.0
+        ],
+        [
+          579.0,
+          444.0
+        ],
+        [
+          490,
+          444.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p4",
+          "line_start": 4,
+          "line_end": 4
+        }
+      ]
+    },
+    {
+      "id": "e-r-method-5",
+      "semantic_relation_ids": [
+        "r-method-5"
+      ],
+      "source": "n-c4",
+      "target": "n-m4",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          742.0
+        ],
+        [
+          588.0,
+          742.0
+        ],
+        [
+          588.0,
+          566.0
+        ],
+        [
+          490,
+          566.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ]
+    },
+    {
+      "id": "e-r-method-6",
+      "semantic_relation_ids": [
+        "r-method-6"
+      ],
+      "source": "n-c4",
+      "target": "n-m5",
+      "relation": "uses",
+      "label": "采用",
+      "points": [
+        [
+          650,
+          742.0
+        ],
+        [
+          552.0,
+          742.0
+        ],
+        [
+          552.0,
+          688.0
+        ],
+        [
+          490,
+          688.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ]
+    },
+    {
+      "id": "e-r-data-1",
+      "semantic_relation_ids": [
+        "r-data-1"
+      ],
+      "source": "n-t1",
+      "target": "n-data",
+      "relation": "produces",
+      "label": "形成",
+      "points": [
+        [
+          1470,
+          200.0
+        ],
+        [
+          1527.28,
+          200.0
+        ],
+        [
+          1527.28,
+          688.0
+        ],
+        [
+          1470,
+          688.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "e-r-analysis-1",
+      "semantic_relation_ids": [
+        "r-analysis-1"
+      ],
+      "source": "n-c1",
+      "target": "n-analysis",
+      "relation": "supports",
+      "label": "支持",
+      "points": [
+        [
+          1020,
+          349.0
+        ],
+        [
+          1078.9,
+          349.0
+        ],
+        [
+          1078.9,
+          864.0
+        ],
+        [
+          1020,
+          864.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "e-r-data-2",
+      "semantic_relation_ids": [
+        "r-data-2"
+      ],
+      "source": "n-t2",
+      "target": "n-data",
+      "relation": "produces",
+      "label": "形成",
+      "points": [
+        [
+          1470,
+          322.0
+        ],
+        [
+          1519.96,
+          322.0
+        ],
+        [
+          1519.96,
+          688.0
+        ],
+        [
+          1470,
+          688.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "e-r-analysis-2",
+      "semantic_relation_ids": [
+        "r-analysis-2"
+      ],
+      "source": "n-c2",
+      "target": "n-analysis",
+      "relation": "supports",
+      "label": "支持",
+      "points": [
+        [
+          1020,
+          489.0
+        ],
+        [
+          1070.5,
+          489.0
+        ],
+        [
+          1070.5,
+          864.0
+        ],
+        [
+          1020,
+          864.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "e-r-data-3",
+      "semantic_relation_ids": [
+        "r-data-3"
+      ],
+      "source": "n-t3",
+      "target": "n-data",
+      "relation": "produces",
+      "label": "形成",
+      "points": [
+        [
+          1470,
+          444.0
+        ],
+        [
+          1512.64,
+          444.0
+        ],
+        [
+          1512.64,
+          688.0
+        ],
+        [
+          1470,
+          688.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "e-r-analysis-3",
+      "semantic_relation_ids": [
+        "r-analysis-3"
+      ],
+      "source": "n-c3",
+      "target": "n-analysis",
+      "relation": "supports",
+      "label": "支持",
+      "points": [
+        [
+          1020,
+          620.0
+        ],
+        [
+          1062.64,
+          620.0
+        ],
+        [
+          1062.64,
+          864.0
+        ],
+        [
+          1020,
+          864.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "e-r-data-4",
+      "semantic_relation_ids": [
+        "r-data-4"
+      ],
+      "source": "n-t4",
+      "target": "n-data",
+      "relation": "produces",
+      "label": "形成",
+      "points": [
+        [
+          1470,
+          566.0
+        ],
+        [
+          1505.32,
+          566.0
+        ],
+        [
+          1505.32,
+          688.0
+        ],
+        [
+          1470,
+          688.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ]
+    },
+    {
+      "id": "e-r-analysis-4",
+      "semantic_relation_ids": [
+        "r-analysis-4"
+      ],
+      "source": "n-c4",
+      "target": "n-analysis",
+      "relation": "supports",
+      "label": "支持",
+      "points": [
+        [
+          1020,
+          742.0
+        ],
+        [
+          1055.32,
+          742.0
+        ],
+        [
+          1055.32,
+          864.0
+        ],
+        [
+          1020,
+          864.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "e-r-comparison",
+      "semantic_relation_ids": [
+        "r-comparison"
+      ],
+      "source": "n-t1",
+      "target": "n-t2",
+      "relation": "compares_with",
+      "label": "比较",
+      "points": [
+        [
+          1470,
+          200.0
+        ],
+        [
+          1505.32,
+          200.0
+        ],
+        [
+          1505.32,
+          322.0
+        ],
+        [
+          1470,
+          322.0
+        ]
+      ],
+      "directed": false,
+      "needs_review": false,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p8",
+          "line_start": 8,
+          "line_end": 8
+        }
+      ]
+    },
+    {
+      "id": "e-r-output",
+      "semantic_relation_ids": [
+        "r-output"
+      ],
+      "source": "n-analysis",
+      "target": "n-output",
+      "relation": "produces",
+      "label": "形成",
+      "points": [
+        [
+          1020,
+          864.0
+        ],
+        [
+          1055.32,
+          864.0
+        ],
+        [
+          1055.32,
+          986.0
+        ],
+        [
+          1020,
+          986.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": false,
+      "statement_status": "expected",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ]
+    },
+    {
+      "id": "e-r-validation",
+      "semantic_relation_ids": [
+        "r-validation"
+      ],
+      "source": "n-m5",
+      "target": "n-output",
+      "relation": "validates",
+      "label": "检验（待审）",
+      "points": [
+        [
+          490,
+          688.0
+        ],
+        [
+          561.0,
+          688.0
+        ],
+        [
+          561.0,
+          986.0
+        ],
+        [
+          650,
+          986.0
+        ]
+      ],
+      "directed": true,
+      "needs_review": true,
+      "statement_status": "planned",
+      "source_refs": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p11",
+          "line_start": 11,
+          "line_end": 11
+        }
+      ]
+    }
+  ],
+  "containers": [],
+  "annotations": [
+    {
+      "x": 160,
+      "y": 55,
+      "text": "合成课堂判断研究 · draft"
+    },
+    {
+      "x": 160,
+      "y": 120,
+      "text": "方法 / 条件 / 进度"
+    },
+    {
+      "x": 650,
+      "y": 120,
+      "text": "研究主轴（顺序须有来源）"
+    },
+    {
+      "x": 1140,
+      "y": 120,
+      "text": "任务 / 资料 / 证据"
+    },
+    {
+      "x": 160,
+      "y": 1106,
+      "text": "类型色仅区分角色；实线=来源关系，虚线=待审；无箭头=比较/归属/并列；planned/expected不等于已验证。"
+    }
+  ],
+  "unshown_relation_ids": [],
+  "text_metrics": [
+    "measured_msyh_or_simhei"
+  ],
+  "scientific_qa": {
+    "schema_valid": true,
+    "valid": true,
+    "approval_eligible": false,
+    "artifact_status": "draft",
+    "errors": [],
+    "blockers": [
+      "r-validation: unresolved core relation",
+      "检验评价工具的指标未确定，不能批准最终图"
+    ],
+    "warnings": [],
+    "source_snapshot_sha256": "da83d5a38709e33f1160f345d2a9f2845434db1629aca3418f8ab8d5a4b060e4",
+    "ir_sha256": "1d5e4d9ca0175e9fb5c0af070f84c6b5ffe4673cc4ad8140b74251661da1eeab",
+    "semantic_review": "agent_record_completed"
+  }
+}

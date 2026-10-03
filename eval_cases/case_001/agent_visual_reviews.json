@@ -1,0 +1,41 @@
+{
+  "overall_research_approach_vertical": {
+    "status": "completed_with_issues",
+    "reviewer": "Codex visual inspection of Edge-rendered synthetic SVG",
+    "visual_scene_sha256": "883d77450746dd59c6399ed60db6e88c7869ef51df913621faf9c7c9c6d8b925",
+    "observations": [
+      "中文标签完整可见；主轴和任务/方法侧层可分辨",
+      "局部采用标签靠近，共享关系及右侧汇总边仍有交叉",
+      "完整IR在A4缩印下过小；不是已批准成图"
+    ],
+    "human_approval": "pending",
+    "actual_A4_print": "not_run",
+    "grayscale_print": "not_run"
+  },
+  "question_content_method_three_column": {
+    "status": "completed_with_issues",
+    "reviewer": "Codex visual inspection of Edge-rendered synthetic SVG",
+    "visual_scene_sha256": "7c7092e767b4752b5a407d98ec27667377c7dcc583b1247d8ba97b813e467eac",
+    "observations": [
+      "中栏内容为主，共享方法只出现一次",
+      "中栏同时保留任务/资料/进度导致纵向过长，后续应按用途收缩投影",
+      "下半段汇总/检验长线拥挤，A4缩印不合格"
+    ],
+    "human_approval": "pending",
+    "actual_A4_print": "not_run",
+    "grayscale_print": "not_run"
+  },
+  "content_evidence_dual_layer": {
+    "status": "completed_with_issues",
+    "reviewer": "Codex visual inspection of Edge-rendered synthetic SVG",
+    "visual_scene_sha256": "ac0021bcce378a947cf9313a3c16c8869eabc0974ef4fa02dbc3c418543acf8e",
+    "observations": [
+      "上层研究内容和下层任务/方法/资料明确分开，未按4对4生成配对边",
+      "固定外侧通道无穿节点，但外侧标签拥挤、部分标签重叠",
+      "完整双层图不适合直接A4缩印，需人工投影或更大纸幅"
+    ],
+    "human_approval": "pending",
+    "actual_A4_print": "not_run",
+    "grayscale_print": "not_run"
+  }
+}

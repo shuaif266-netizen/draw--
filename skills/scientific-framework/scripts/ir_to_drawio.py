@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from contracts import digest, read, safe_xml, write
-from diagram_scene import build_scene
+from diagram_scene import build_scene, ROLE_LABELS, STATE_LABELS
 
 def xml_tree(scene):
     file=ET.Element('mxfile',host='scientific-framework',artifact_status=scene['artifact_status'],
@@ -23,7 +23,7 @@ def xml_tree(scene):
                            style='rounded=1;fillColor=none;strokeColor=#94A3B8;verticalAlign=top;align=left;html=0;container=1;')
         geometry(cell,c)
     for n in scene['nodes']:
-        label='\n'.join(n['lines'])+'\n['+n['role']+' · '+n['statement_status']+']'
+        label='\n'.join(n['lines'])+'\n['+ROLE_LABELS[n['role']]+' · '+STATE_LABELS[n['statement_status']]+']'
         cell=ET.SubElement(root,'mxCell',id=n['id'],value=safe_xml(label),vertex='1',parent=n['parent'] or '1',
                            semantic_node_ids=json.dumps(n['semantic_node_ids']),
                            source_refs=json.dumps([{'source_id':l['source_id'],'segment_id':l['segment_id']} for l in n['source_refs']]),
@@ -57,7 +57,7 @@ def main():
     p.add_argument('--output',required=True); p.add_argument('--scene',required=True)
     a=p.parse_args(); scene=build_scene(read(a.ir),read(a.layout),read(a.sources))
     write(a.scene,scene); out=Path(a.output); out.parent.mkdir(parents=True,exist_ok=True)
-    xml_tree(scene).write(out,encoding='utf-8',xml_declaration=True)
+    out.write_bytes(ET.tostring(xml_tree(scene).getroot(),encoding='utf-8',xml_declaration=True))
     print('Editable XML generated after Scientific QA; status='+scene['artifact_status'])
 
 if __name__=='__main__': main()

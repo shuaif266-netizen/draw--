@@ -1,0 +1,29 @@
+{
+  "status": "issues_found",
+  "issues": [
+    "Orthogonal edge crossings: 8",
+    "A4 fit-to-page node label is only 6.5 pt; use a larger page or simplify projection"
+  ],
+  "a4_fit_font_pt": 6.53,
+  "edge_crossing_count": 8,
+  "human_visual_review": "not_run",
+  "reading_3_to_5_seconds": "not_run",
+  "grayscale_print": "not_run",
+  "native_drawio_render": "not_run",
+  "text_metrics": [
+    "measured_msyh_or_simhei"
+  ],
+  "agent_visual_review": {
+    "status": "completed_with_issues",
+    "reviewer": "Codex visual inspection of Edge-rendered synthetic SVG",
+    "visual_scene_sha256": "883d77450746dd59c6399ed60db6e88c7869ef51df913621faf9c7c9c6d8b925",
+    "observations": [
+      "中文标签完整可见；主轴和任务/方法侧层可分辨",
+      "局部采用标签靠近，共享关系及右侧汇总边仍有交叉",
+      "完整IR在A4缩印下过小；不是已批准成图"
+    ],
+    "human_approval": "pending",
+    "actual_A4_print": "not_run",
+    "grayscale_print": "not_run"
+  }
+}

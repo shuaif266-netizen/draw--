@@ -1,0 +1,940 @@
+{
+  "schema_version": "scientific-framework/ir/v1",
+  "artifact_status": "draft",
+  "project": {
+    "id": "synthetic-001",
+    "title": "合成课堂判断研究",
+    "title_status": "provided",
+    "working_title": "合成课堂判断研究",
+    "source": [
+      {
+        "source_id": "s-e3ace49e535b6509",
+        "format": "txt",
+        "file_alias": "proposal.txt",
+        "sha256": "e3ace49e535b6509b748acaa1aaefca0f4eb5c3df6c857e60e29157c720a1dc6"
+      }
+    ],
+    "diagram_purpose": "overall_research_approach"
+  },
+  "nodes": [
+    {
+      "id": "q",
+      "label": "不同资料来源如何支持对课堂判断过程的解释",
+      "short_label": "不同资料来源如何支持对课堂判断过程的解释",
+      "type": "scientific_question",
+      "level": 0,
+      "group": "scientific_question",
+      "source_text": [
+        "不同资料来源如何支持对课堂判断过程的解释"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p1",
+          "line_start": 1,
+          "line_end": 1
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "c1",
+      "label": "还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节",
+      "short_label": "还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节",
+      "type": "research_content",
+      "level": 1,
+      "group": "research_content",
+      "source_text": [
+        "还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "c2",
+      "label": "形成条件与比较边界（条件A < 条件B & 情境差异）",
+      "short_label": "形成条件与比较边界（条件A < 条件B & 情境差异）",
+      "type": "research_content",
+      "level": 1,
+      "group": "research_content",
+      "source_text": [
+        "形成条件与比较边界（条件A < 条件B & 情境差异）"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p3",
+          "line_start": 3,
+          "line_end": 3
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "c3",
+      "label": "过程资料的归纳方式",
+      "short_label": "过程资料的归纳方式",
+      "type": "research_content",
+      "level": 1,
+      "group": "research_content",
+      "source_text": [
+        "过程资料的归纳方式"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p4",
+          "line_start": 4,
+          "line_end": 4
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "c4",
+      "label": "评价规则的试行条件",
+      "short_label": "评价规则的试行条件",
+      "type": "research_content",
+      "level": 1,
+      "group": "research_content",
+      "source_text": [
+        "评价规则的试行条件"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "m1",
+      "label": "过程追踪法",
+      "short_label": "过程追踪法",
+      "type": "method",
+      "level": 2,
+      "group": "method",
+      "source_text": [
+        "过程追踪法"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "m2",
+      "label": "访谈法",
+      "short_label": "访谈法",
+      "type": "method",
+      "level": 2,
+      "group": "method",
+      "source_text": [
+        "访谈法"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "m3",
+      "label": "主题分析法",
+      "short_label": "主题分析法",
+      "type": "method",
+      "level": 2,
+      "group": "method",
+      "source_text": [
+        "主题分析法"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "m4",
+      "label": "案例比较法",
+      "short_label": "案例比较法",
+      "type": "method",
+      "level": 2,
+      "group": "method",
+      "source_text": [
+        "案例比较法"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "m5",
+      "label": "描述统计法",
+      "short_label": "描述统计法",
+      "type": "method",
+      "level": 2,
+      "group": "method",
+      "source_text": [
+        "描述统计法"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p6",
+          "line_start": 6,
+          "line_end": 6
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "t1",
+      "label": "课堂活动一记录",
+      "short_label": "课堂活动一记录",
+      "type": "research_task",
+      "level": 2,
+      "group": "research_task",
+      "source_text": [
+        "课堂活动一记录"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "t2",
+      "label": "课堂活动二记录",
+      "short_label": "课堂活动二记录",
+      "type": "research_task",
+      "level": 2,
+      "group": "research_task",
+      "source_text": [
+        "课堂活动二记录"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "t3",
+      "label": "课堂活动三记录",
+      "short_label": "课堂活动三记录",
+      "type": "research_task",
+      "level": 2,
+      "group": "research_task",
+      "source_text": [
+        "课堂活动三记录"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "t4",
+      "label": "课堂活动四记录",
+      "short_label": "课堂活动四记录",
+      "type": "research_task",
+      "level": 2,
+      "group": "research_task",
+      "source_text": [
+        "课堂活动四记录"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "data",
+      "label": "连续过程资料",
+      "short_label": "连续过程资料",
+      "type": "data",
+      "level": 2,
+      "group": "data",
+      "source_text": [
+        "连续过程资料"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "compare",
+      "label": "探索性观察，不作严格因果推断",
+      "short_label": "探索性观察，不作严格因果推断",
+      "type": "comparison",
+      "level": 2,
+      "group": "comparison",
+      "source_text": [
+        "探索性观察，不作严格因果推断"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p8",
+          "line_start": 8,
+          "line_end": 8
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "analysis",
+      "label": "综合分析阶段",
+      "short_label": "综合分析阶段",
+      "type": "process",
+      "level": 3,
+      "group": "process",
+      "source_text": [
+        "综合分析阶段"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "output",
+      "label": "评价工具草案",
+      "short_label": "评价工具草案",
+      "type": "output",
+      "level": 4,
+      "group": "output",
+      "source_text": [
+        "评价工具草案"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "expected",
+      "extraction_status": "explicit",
+      "core": true
+    },
+    {
+      "id": "progress",
+      "label": "第1至24个月",
+      "short_label": "第1至24个月",
+      "type": "progress",
+      "level": 2,
+      "group": "progress",
+      "source_text": [
+        "第1至24个月"
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p10",
+          "line_start": 10,
+          "line_end": 10
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "extraction_status": "explicit",
+      "core": true
+    }
+  ],
+  "relations": [
+    {
+      "id": "r-method-1",
+      "source": "c1",
+      "target": "m1",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "quote": "研究内容一：还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节，拟采用过程追踪法和访谈法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-method-2",
+      "source": "c1",
+      "target": "m2",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "quote": "研究内容一：还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节，拟采用过程追踪法和访谈法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p2",
+          "line_start": 2,
+          "line_end": 2
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-method-3",
+      "source": "c2",
+      "target": "m1",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p3",
+          "quote": "研究内容二：考察形成条件与比较边界（条件A < 条件B & 情境差异），拟采用过程追踪法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p3",
+          "line_start": 3,
+          "line_end": 3
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-method-4",
+      "source": "c3",
+      "target": "m3",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p4",
+          "quote": "研究内容三：研究过程资料的归纳方式，拟采用主题分析法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p4",
+          "line_start": 4,
+          "line_end": 4
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-method-5",
+      "source": "c4",
+      "target": "m4",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "quote": "研究内容四：研究评价规则的试行条件，拟采用案例比较法和描述统计法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-method-6",
+      "source": "c4",
+      "target": "m5",
+      "relation": "uses",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "quote": "研究内容四：研究评价规则的试行条件，拟采用案例比较法和描述统计法。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p5",
+          "line_start": 5,
+          "line_end": 5
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-data-1",
+      "source": "t1",
+      "target": "data",
+      "relation": "produces",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "quote": "四次研究任务分别为课堂活动一记录、课堂活动二记录、课堂活动三记录、课堂活动四记录；这四次任务共同采集连续过程资料，具体如何分配给四项研究内容尚未确定。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-analysis-1",
+      "source": "c1",
+      "target": "analysis",
+      "relation": "supports",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "quote": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-data-2",
+      "source": "t2",
+      "target": "data",
+      "relation": "produces",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "quote": "四次研究任务分别为课堂活动一记录、课堂活动二记录、课堂活动三记录、课堂活动四记录；这四次任务共同采集连续过程资料，具体如何分配给四项研究内容尚未确定。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-analysis-2",
+      "source": "c2",
+      "target": "analysis",
+      "relation": "supports",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "quote": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-data-3",
+      "source": "t3",
+      "target": "data",
+      "relation": "produces",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "quote": "四次研究任务分别为课堂活动一记录、课堂活动二记录、课堂活动三记录、课堂活动四记录；这四次任务共同采集连续过程资料，具体如何分配给四项研究内容尚未确定。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-analysis-3",
+      "source": "c3",
+      "target": "analysis",
+      "relation": "supports",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "quote": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-data-4",
+      "source": "t4",
+      "target": "data",
+      "relation": "produces",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "quote": "四次研究任务分别为课堂活动一记录、课堂活动二记录、课堂活动三记录、课堂活动四记录；这四次任务共同采集连续过程资料，具体如何分配给四项研究内容尚未确定。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p7",
+          "line_start": 7,
+          "line_end": 7
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-analysis-4",
+      "source": "c4",
+      "target": "analysis",
+      "relation": "supports",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "quote": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-comparison",
+      "source": "t1",
+      "target": "t2",
+      "relation": "compares_with",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p8",
+          "quote": "拟比较课堂活动一记录和课堂活动二记录的资料，比较属于探索性观察，不作严格因果推断。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p8",
+          "line_start": 8,
+          "line_end": 8
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "planned",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-output",
+      "source": "analysis",
+      "target": "output",
+      "relation": "produces",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "quote": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p9",
+          "line_start": 9,
+          "line_end": 9
+        }
+      ],
+      "confidence": 0.98,
+      "needs_review": false,
+      "statement_status": "expected",
+      "interpretation_note": "原文明示计划关系；非科学已证实",
+      "core": true
+    },
+    {
+      "id": "r-validation",
+      "source": "m5",
+      "target": "output",
+      "relation": "validates",
+      "evidence": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p11",
+          "quote": "拟以描述统计法检验评价工具草案，检验指标尚未确定，检验关系须进一步审查。"
+        }
+      ],
+      "source_location": [
+        {
+          "source_id": "s-e3ace49e535b6509",
+          "segment_id": "p11",
+          "line_start": 11,
+          "line_end": 11
+        }
+      ],
+      "confidence": 0.5,
+      "needs_review": true,
+      "statement_status": "planned",
+      "interpretation_note": "检验指标未定；不是验证成功",
+      "core": true
+    }
+  ],
+  "review_items": [
+    {
+      "id": "review-validation",
+      "subject_ids": [
+        "r-validation"
+      ],
+      "issue": "检验评价工具的指标未确定，不能批准最终图",
+      "severity": "blocker",
+      "needs_review": true
+    }
+  ],
+  "agent_review": {
+    "status": "completed",
+    "reviewer": "Codex source-grounded synthetic-case review",
+    "source_snapshot_sha256": "da83d5a38709e33f1160f345d2a9f2845434db1629aca3418f8ab8d5a4b060e4",
+    "issues": [],
+    "summary": "核心问题是资料如何支持课堂判断过程解释。主线为四项内容共同支持综合分析，预期形成工具；不声称内容之间有时间或因果顺序。四项内容、四次任务、五种方法为不同角色，任务分配未确定，不新增对应边。任务产生拟采集资料，不是已有证据。活动1/2是探索性比较，不作因果；没有causes关系。进度不属于机制。内容长标签仅换行，不改术语；方法/任务/内容不可合并。辅助层可在用途明确时省略非核心条目，本合成例完整展示；检验关系指标未定保留待审，不批准。",
+    "semantic_model_sha256": "c77eeefdaad93e4263c6c20c8d3628b1b390846495902b526183702e6f1c48c2"
+  }
+}

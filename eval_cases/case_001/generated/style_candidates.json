@@ -1,0 +1,147 @@
+{
+  "schema_version": "scientific-framework/style/v1",
+  "patterns": [
+    {
+      "pattern_name": "central-backbone-with-secondary-side-rails",
+      "sources": [
+        "3dab583e539703d4e78f9393596f2b2b228d24e33634d99f7bb3c45668843c2b"
+      ],
+      "occurrence_count": 1,
+      "independent_composition_count": 1,
+      "applicable_diagram_types": [],
+      "applicable_density": "Needs Agent applicability review",
+      "description": "central-backbone-with-secondary-side-rails",
+      "confidence": 0.85,
+      "promotion_status": "candidate"
+    },
+    {
+      "pattern_name": "labels-explicitly-mark-planned-and-expected",
+      "sources": [
+        "3dab583e539703d4e78f9393596f2b2b228d24e33634d99f7bb3c45668843c2b"
+      ],
+      "occurrence_count": 1,
+      "independent_composition_count": 1,
+      "applicable_diagram_types": [],
+      "applicable_density": "Needs Agent applicability review",
+      "description": "labels-explicitly-mark-planned-and-expected",
+      "confidence": 0.85,
+      "promotion_status": "candidate"
+    }
+  ],
+  "default_changed": false,
+  "visual_style": {
+    "palette": {
+      "status": "estimated",
+      "value": [
+        "淡蓝",
+        "浅绿",
+        "浅橙",
+        "淡紫",
+        "浅灰"
+      ],
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "font": {
+      "status": "unknown",
+      "value": null,
+      "note": "Not reliably determined"
+    },
+    "stroke": {
+      "status": "unknown",
+      "value": null,
+      "note": "Not reliably determined"
+    },
+    "shapes": {
+      "status": "observed",
+      "value": "圆角矩形",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "edges": {
+      "status": "observed",
+      "value": "正交实线、箭头、少量虚线",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "icons": {
+      "status": "observed",
+      "value": "无可见图标",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    }
+  },
+  "layout_grammar": {
+    "reading_direction": {
+      "status": "observed",
+      "value": "中间纵向扫描，两侧辅助",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "backbone_type": {
+      "status": "observed",
+      "value": "中间纵向节点序列",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "column_structure": {
+      "status": "observed",
+      "value": "三栏",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "row_structure": {
+      "status": "observed",
+      "value": "各栏纵向条目；不严格行对齐",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "hierarchy": {
+      "status": "observed",
+      "value": "主栏与侧栏；标题/主标签/角色状态字",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "major_regions": {
+      "status": "observed",
+      "value": "中间主层、左侧辅助、右侧辅助、底部图例",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "module_proportion": {
+      "status": "estimated",
+      "value": "中栏略宽于侧栏",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "grouping": {
+      "status": "observed",
+      "value": "空间分栏加栏标题",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "symmetry": {
+      "status": "unknown",
+      "value": null,
+      "note": "Not reliably determined"
+    },
+    "density": {
+      "status": "estimated",
+      "value": "中等节点密度，局部线标签拥挤",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "whitespace": {
+      "status": "estimated",
+      "value": "栏间通道和模块垂直间隔明显",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "side_rail_usage": {
+      "status": "observed",
+      "value": "两侧纵向辅助模块",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "evidence_layer_usage": {
+      "status": "unknown",
+      "value": null,
+      "note": "Not reliably determined"
+    },
+    "method_layer_usage": {
+      "status": "observed",
+      "value": "左侧方法节点",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    },
+    "task_layer_usage": {
+      "status": "observed",
+      "value": "右侧任务节点",
+      "note": "Visible observation; no hidden scientific meaning inferred"
+    }
+  }
+}

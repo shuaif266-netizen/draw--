@@ -3,14 +3,21 @@ import argparse
 import math
 from pathlib import Path
 from PIL import ImageFont
-from contracts import digest, read, require_schema, safe_xml, write
+from contracts import SKILL, digest, read, require_schema, safe_xml, write
 from validate_ir import validate
 
 LAYOUTS=('overall_research_approach_vertical','question_content_method_three_column','content_evidence_dual_layer')
 SECONDARY={'method','research_task','material','data','evidence','research_object','progress','condition','comparison'}
 UNDIRECTED={'contains','parallel_with','compares_with','contrasts_with'}
-COLORS={'research_content':'#DCEAF7','research_task':'#FFF0D9','method':'#E6F1EA','progress':'#F0F0F0',
-        'output':'#ECE5F5','evidence':'#E6F1EA','scientific_question':'#DCEAF7'}
+NEUTRAL=read(SKILL/'styles/built-in/scientific-neutral.json')
+COLORS=NEUTRAL['role_colors']
+ROLE_LABELS=dict(zip('background research_gap research_problem scientific_question hypothesis overall_objective sub_objective research_content work_package research_task progress research_object material data method comparison condition evidence mechanism process validation feedback intervention cultivation output innovation limitation'.split(),
+                    '背景 缺口 研究问题 科学问题 假设 总目标 子目标 研究内容 工作包 研究任务 进度 对象 材料 资料 方法 比较 条件 证据 机制 过程 验证 反馈 干预 培育 产出 创新 局限'.split()))
+STATE_LABELS={'definition':'概念定义','background_claim':'背景陈述','planned':'拟开展','hypothesized':'待检验假设','expected':'预期产物','reported':'原文报告'}
+REL_LABELS={'contains':'归属','leads_to':'推进','enables':'使能','depends_on':'依赖','influences':'影响',
+            'compares_with':'比较','contrasts_with':'对照','validates':'检验','evidence_for':'证据支持',
+            'transforms_to':'转换','feeds_back_to':'反馈修订','temporal_before':'先于','parallel_with':'并列',
+            'supports':'支持','applies_to':'适用于','addresses':'回应','uses':'采用','produces':'形成','causes':'因果命题'}
 
 def init_layout(ir, kind):
     if kind not in LAYOUTS: raise ValueError('Unsupported M1 layout')
@@ -84,7 +91,7 @@ def build_scene(ir, layout, snapshot):
                 rendered.append(dict(id='n-'+n['id'],semantic_node_ids=[n['id']],label=n['label'],lines=lines,
                                      role=n['type'],statement_status=n['statement_status'],needs_review=n['needs_review'],
                                      x=xs[col],y=y,width=widths[col],height=h,parent=None,
-                                     fill=COLORS.get(n['type'],'#F5F7FA'),source_refs=n['source_location']))
+                                     fill=COLORS.get(n['type'],NEUTRAL['default_fill']),source_refs=n['source_location']))
                 metrics.append(metric); y+=h+42
     else:
         y=ytop
@@ -98,13 +105,14 @@ def build_scene(ir, layout, snapshot):
                     row.append(dict(id='n-'+n['id'],semantic_node_ids=[n['id']],label=n['label'],lines=lines,
                                     role=n['type'],statement_status=n['statement_status'],needs_review=n['needs_review'],
                                     x=xs[col],y=y,width=widths[col],height=h,parent=None,
-                                    fill=COLORS.get(n['type'],'#F5F7FA'),source_refs=n['source_location']))
+                                    fill=COLORS.get(n['type'],NEUTRAL['default_fill']),source_refs=n['source_location']))
                     metrics.append(metric)
                 rendered.extend(row); y+=max(n['height'] for n in row)+42
             if not band: divider=y+25
     by_id={n['semantic_node_ids'][0]:n for n in rendered}
     containers=[]; specifications={c['id']:c for c in layout['containers']}
-    if len(specifications)!=len(layout['containers']) or set(specifications)&{n['id'] for n in rendered}:
+    reserved={'0','1'}|{f'annotation-{i}' for i in range(20)}|{n['id'] for n in rendered}|{'e-'+r['id'] for r in ir['relations']}
+    if len(specifications)!=len(layout['containers']) or set(specifications)&reserved:
         raise ValueError('Duplicate/reserved container ID')
     assigned=set()
     def container(cid,trail):
@@ -131,18 +139,27 @@ def build_scene(ir, layout, snapshot):
             unshown.append(r['id']); continue
         a,b=by_id[r['source']],by_id[r['target']]
         # Explicit simple channels. Complex obstacle routing is deliberately not claimed.
-        if a['x']!=b['x']:
+        if kind==LAYOUTS[2]:
+            # Fixed exterior channel plus each row's top whitespace, not obstacle search.
+            p1=[a['x']+a['width']/2,a['y']]
+            p2=[b['x']+b['width']/2,b['y']]
+            lane=52+(idx%17)*4
+            points=[p1,[p1[0],p1[1]-18],[lane,p1[1]-18],
+                    [lane,p2[1]-18],[p2[0],p2[1]-18],p2]
+        elif a['x']!=b['x']:
             forward=a['x']<b['x']
             p1=[a['x']+a['width'] if forward else a['x'],a['y']+a['height']/2]
             p2=[b['x'] if forward else b['x']+b['width'],b['y']+b['height']/2]
             mx=(p1[0]+p2[0])/2 + (idx%5-2)*9
             points=[p1,[mx,p1[1]],[mx,p2[1]],p2]
         else:
-            p1=[a['x'],a['y']+a['height']/2]; p2=[b['x'],b['y']+b['height']/2]
-            lane=a['x']-34-(idx%7)*12
+            side=1 if a['x']>=650 else -1
+            px=a['x']+a['width'] if side==1 else a['x']
+            p1=[px,a['y']+a['height']/2]; p2=[px,b['y']+b['height']/2]
+            lane=px+side*(28+min(72,abs(p2[1]-p1[1])*.06))
             points=[p1,[lane,p1[1]],[lane,p2[1]],p2]
         edges.append(dict(id='e-'+r['id'],semantic_relation_ids=[r['id']],source=a['id'],target=b['id'],
-                          relation=r['relation'],label=r['id']+' · '+r['relation'],points=points,
+                          relation=r['relation'],label=REL_LABELS[r['relation']]+('（待审）' if r['needs_review'] else ''),points=points,
                           directed=r['relation'] not in UNDIRECTED,needs_review=r['needs_review'],
                           statement_status=r['statement_status'],source_refs=r['source_location']))
     if unshown and layout['artifact_status']=='approved': raise ValueError('Unshown scientific relations prevent approved display')

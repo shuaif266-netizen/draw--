@@ -1,0 +1,133 @@
+{
+  "schema_version": "scientific-framework/source/v1",
+  "source": {
+    "source_id": "s-e3ace49e535b6509",
+    "format": "txt",
+    "file_alias": "proposal.txt",
+    "sha256": "e3ace49e535b6509b748acaa1aaefca0f4eb5c3df6c857e60e29157c720a1dc6"
+  },
+  "segments": [
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p1",
+      "heading_path": [],
+      "location": {
+        "line_start": 1,
+        "line_end": 1
+      },
+      "text": "合成科研案例：探索课堂判断的过程与评价条件。核心问题是不同资料来源如何支持对课堂判断过程的解释。",
+      "sha256": "73f3a7331633d89b45ac7b397fcf0caeca562dc03921446cb1c60c4c83c16ee3"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p2",
+      "heading_path": [],
+      "location": {
+        "line_start": 2,
+        "line_end": 2
+      },
+      "text": "研究内容一：还原学生在不同学习条件下形成课堂判断的连续过程并识别关键证据转换环节，拟采用过程追踪法和访谈法。",
+      "sha256": "ba89aa7d6bf734fc3afd63ad003f5ae015eadd4cec698026bce3e846f4d93ae1"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p3",
+      "heading_path": [],
+      "location": {
+        "line_start": 3,
+        "line_end": 3
+      },
+      "text": "研究内容二：考察形成条件与比较边界（条件A < 条件B & 情境差异），拟采用过程追踪法。",
+      "sha256": "9da150221ebb3516bf5260b55daaa54a611b5345a6e8452012f0d45951a1290d"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p4",
+      "heading_path": [],
+      "location": {
+        "line_start": 4,
+        "line_end": 4
+      },
+      "text": "研究内容三：研究过程资料的归纳方式，拟采用主题分析法。",
+      "sha256": "db9a9fe938bea6d679b5e0958a60cc71c7e52bfe979422563c80aee64e622b85"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p5",
+      "heading_path": [],
+      "location": {
+        "line_start": 5,
+        "line_end": 5
+      },
+      "text": "研究内容四：研究评价规则的试行条件，拟采用案例比较法和描述统计法。",
+      "sha256": "6b70a550130d317c6c48f201c7023f3e25f6a7c919f0ff5b1d49cddba4327f7f"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p6",
+      "heading_path": [],
+      "location": {
+        "line_start": 6,
+        "line_end": 6
+      },
+      "text": "五种方法分别为过程追踪法、访谈法、主题分析法、案例比较法、描述统计法，方法不等同研究结果。",
+      "sha256": "f29100ec0b9cf4184348425e32710c3bc503f97a5f0cdb0d645e1e2591c97ba6"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p7",
+      "heading_path": [],
+      "location": {
+        "line_start": 7,
+        "line_end": 7
+      },
+      "text": "四次研究任务分别为课堂活动一记录、课堂活动二记录、课堂活动三记录、课堂活动四记录；这四次任务共同采集连续过程资料，具体如何分配给四项研究内容尚未确定。",
+      "sha256": "9c3e34f8a47f8c77a7df16b550c320c7c0331f7825a709d9feb437cd813f9f2d"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p8",
+      "heading_path": [],
+      "location": {
+        "line_start": 8,
+        "line_end": 8
+      },
+      "text": "拟比较课堂活动一记录和课堂活动二记录的资料，比较属于探索性观察，不作严格因果推断。",
+      "sha256": "edd174a69830a9654139b340307ae733f3172a9b25c922d0fd06255d04742a72"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p9",
+      "heading_path": [],
+      "location": {
+        "line_start": 9,
+        "line_end": 9
+      },
+      "text": "四项研究内容共同支持综合分析阶段，预期由综合分析形成评价工具草案，不将草案视为已验证成果。",
+      "sha256": "1e76d02a55d76289a77d39fd9488641e612ac056fe629d06ae6e5c71b2c68360"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p10",
+      "heading_path": [],
+      "location": {
+        "line_start": 10,
+        "line_end": 10
+      },
+      "text": "项目进度为第1至24个月，月份安排不是科研机制。",
+      "sha256": "aaf1ac613284b1e810b8da5bd6e5de694515c7f204b97dff66d00add24f7db18"
+    },
+    {
+      "source_id": "s-e3ace49e535b6509",
+      "segment_id": "p11",
+      "heading_path": [],
+      "location": {
+        "line_start": 11,
+        "line_end": 11
+      },
+      "text": "拟以描述统计法检验评价工具草案，检验指标尚未确定，检验关系须进一步审查。",
+      "sha256": "db08c5a6867cd188faae993d007424d6581bb899e4169889d8d873a1cc81d517"
+    }
+  ],
+  "warnings": []
+}

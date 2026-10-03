@@ -1,0 +1,9 @@
+{
+  "id": "scientific-neutral",
+  "origin": "built-in engineering preset; not learned personal preference",
+  "role_colors": {
+    "research_content": "#DCEAF7", "research_task": "#FFF0D9", "method": "#E6F1EA",
+    "progress": "#F0F0F0", "output": "#ECE5F5", "evidence": "#E6F1EA", "scientific_question": "#DCEAF7"
+  },
+  "default_fill": "#F5F7FA"
+}

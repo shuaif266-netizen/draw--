@@ -5,6 +5,7 @@ eval_cases_private/
 outputs/
 feedback/*.jsonl
 reference_images/**/*
+!reference_images/**/
 !reference_images/**/.gitkeep
 reference_profiles/*
 !reference_profiles/.gitkeep
