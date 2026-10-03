@@ -1,0 +1,9 @@
+# 个人视觉语法候选库
+
+初始没有已学习或已批准的个人规律。内置scientific-neutral只是中性工程预设。
+
+learn_reference aggregate输出pattern_name、sources、occurrence_count、independent_composition_count、applicable_diagram_types、applicable_density、description、confidence、promotion_status。自动聚合按Agent的相同原则名称匹配；近义规律需要Agent审查归并，不能把不同科学结构混为同一规律。
+
+默认candidate；至少两个已确认独立构图支持时为promotion_candidate。用户明确“以后都这样”也可由Agent提出带记录的promotion candidate。两者均不能自动成为default；激活必须用户确认，M1不实现默认风格写入。
+
+单次反馈generalizable=false，明确偏好记录到本地feedback-log.jsonl：case_id、diagram_version、feedback_type、original_problem、user_preference、accepted_change、generalizable、timestamp。未完成修改则accepted_change=null。原始反馈忽略且不push；M1通过Agent记录，尚无专门追加/升级脚本。
