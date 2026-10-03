@@ -6,6 +6,8 @@
 
 用户已确认第一轮设计并授权 Milestone 1。按 docs/m1-amendments.md 实现五份契约、来源抽取、Agent结果编译、Scientific QA、三种确定性布局、draw.io/SVG、参考观察候选及合成评估。完成M1报告后停止，不进入M2，不合并main。
 
+M1已完成，当前能力和限制见 docs/milestone-1-report.md；旧architecture-plan保留为历史基线。后续修改需用户授权，运行已有合成case，保持Scientific QA先于Visual QA。
+
 空仓库先在 `main` 创建 README、MIT LICENSE 和本文件，提交 `chore: initialize scientific framework skill repository`；其后使用用户指定的 `feature/scientific-framework-v1` 分支。只暂存本轮文件，不在 main 批量开发，不自动合并分支。
 
 ## 科研与视觉

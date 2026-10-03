@@ -1,6 +1,6 @@
 # 个人科研框架图 Skill 架构计划
 
-日期：2026-10-04。状态：第一轮设计草案，尚未实现。当前只提交本文件、[upstream-analysis.md](upstream-analysis.md) 和最小初始化文件；本文中的目录、Schema和脚本均为后续计划，不表示已经存在或可运行。
+日期：2026-10-04。此文保留第一轮设计基线，当时尚未实现。现M1已依用户修订完成，当前能力以[m1-amendments.md](m1-amendments.md)和[milestone-1-report.md](milestone-1-report.md)为准。下述旧目录/脚本名/复用设想属于历史计划，不能当作当前运行能力。
 
 ## 1. 产品边界与核心决策
 
