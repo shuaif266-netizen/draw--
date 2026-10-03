@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "layout-spec",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "scientific-framework/layout/v1"
+    },
+    "artifact_status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "approved"
+      ]
+    },
+    "ir_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "diagram_type": {
+      "enum": [
+        "overall_research_approach_vertical",
+        "question_content_method_three_column",
+        "content_evidence_dual_layer"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "display_node_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "omitted_nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "reason"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "font_size": {
+      "type": "integer",
+      "minimum": 14,
+      "maximum": 28
+    },
+    "containers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "node_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "parent",
+          "node_ids"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "style_id": {
+      "const": "scientific-neutral"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "artifact_status",
+    "ir_sha256",
+    "diagram_type",
+    "title",
+    "display_node_ids",
+    "omitted_nodes",
+    "font_size",
+    "containers",
+    "style_id",
+    "notes"
+  ],
+  "additionalProperties": false
+}

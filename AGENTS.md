@@ -4,7 +4,7 @@
 
 ## 当前授权范围
 
-本轮只提交 `docs/upstream-analysis.md`、`docs/architecture-plan.md` 和必要的最小初始化文件。完成分析后停止，等待用户明确确认再实现代码、Schema、Skill 入口或案例。
+用户已确认第一轮设计并授权 Milestone 1。按 docs/m1-amendments.md 实现五份契约、来源抽取、Agent结果编译、Scientific QA、三种确定性布局、draw.io/SVG、参考观察候选及合成评估。完成M1报告后停止，不进入M2，不合并main。
 
 空仓库先在 `main` 创建 README、MIT LICENSE 和本文件，提交 `chore: initialize scientific framework skill repository`；其后使用用户指定的 `feature/scientific-framework-v1` 分支。只暂存本轮文件，不在 main 批量开发，不自动合并分支。
 

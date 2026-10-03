@@ -1,0 +1,966 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "style-profile",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "scientific-framework/style/v1"
+    },
+    "visual_style": {
+      "type": "object",
+      "properties": {
+        "palette": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "font": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "stroke": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "shapes": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "edges": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "icons": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "palette",
+        "font",
+        "stroke",
+        "shapes",
+        "edges",
+        "icons"
+      ],
+      "additionalProperties": false
+    },
+    "layout_grammar": {
+      "type": "object",
+      "properties": {
+        "reading_direction": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "backbone_type": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "column_structure": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "row_structure": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "hierarchy": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "major_regions": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "module_proportion": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "grouping": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "symmetry": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "density": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "whitespace": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "side_rail_usage": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "evidence_layer_usage": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "method_layer_usage": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "task_layer_usage": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "observed",
+                "estimated",
+                "unknown"
+              ]
+            },
+            "value": {},
+            "note": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "status",
+            "value",
+            "note"
+          ],
+          "additionalProperties": false,
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "unknown"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "value": {
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      "required": [
+        "reading_direction",
+        "backbone_type",
+        "column_structure",
+        "row_structure",
+        "hierarchy",
+        "major_regions",
+        "module_proportion",
+        "grouping",
+        "symmetry",
+        "density",
+        "whitespace",
+        "side_rail_usage",
+        "evidence_layer_usage",
+        "method_layer_usage",
+        "task_layer_usage"
+      ],
+      "additionalProperties": false
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pattern_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "occurrence_count": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "independent_composition_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "applicable_diagram_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "applicable_density": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "promotion_status": {
+            "enum": [
+              "candidate",
+              "promotion_candidate"
+            ]
+          }
+        },
+        "required": [
+          "pattern_name",
+          "sources",
+          "occurrence_count",
+          "independent_composition_count",
+          "applicable_diagram_types",
+          "applicable_density",
+          "description",
+          "confidence",
+          "promotion_status"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "default_changed": {
+      "const": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "visual_style",
+    "layout_grammar",
+    "patterns",
+    "default_changed"
+  ],
+  "additionalProperties": false
+}
